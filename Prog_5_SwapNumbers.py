@@ -35,8 +35,8 @@ print("a2: ", a2)
 print("b2: ", b2)
 
 # swapping : Method 4 (Tuple packing and unpacking)
-a3 = 5
-b3 = 6
+a3 = int(input("Enter 'a3' number: "))
+b3 = int(input("Enter 'b3' number: "))
 a3, b3 = b3, a3
 print("-------After swapping- Method 3--------")
 print("a3: ", a3)
